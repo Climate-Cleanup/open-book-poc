@@ -1,1 +1,160 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.menu-name{
+margin-left: 40px;
+
+}
+
+.page-title {
+    margin: 10px;
+    background: #d8d8d8;
+    height: 84px;
+    padding: 12px;
+    padding-left: 30px;
+}
+
+    .main-page {
+        background: #d8d8d8;
+    }
+
+
+.project-pic {
+    background: url(assets/img/agro.jpg);
+    background-size: cover;
+    height:330px;
+}
+
+
+.project-map {
+    background: url(assets/img/agromap.jpg);
+    background-size: cover;
+    height:330px;
+}
+
+
+.navbar-brand {
+
+    padding-left: 1rem;
+    }
+
+
+    /* ICONS */
+
+    img.icon {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+
+    .tabname {
+        padding: 10px;
+        color: #6c757d;
+    }
+
+    .nav-tabs .nav-link {
+        border: 1px solid #343a4024;
+    //  border-top-left-radius: 0; 
+      // border-top-right-radius: 0; 
+        background: #ffffff;
+    }
+
+    tab.tab-pane {
+        background: #f7f6f6;
+        padding: 20px;
+    }
+
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: #495057;
+        background-color: #f7f6f6;
+        border-color: #dee2e6 #dee2e6 #f7f6f6;
+    }
+
+    .nav-tabs .nav-link {
+        border: 1px solid #343a4024;
+        background: #efefef;
+        height: 100%;
+    }
+    .project-pic {
+     
+        background-size: cover;
+        height: 550px;
+        background-position: center;
+        border-radius: .25rem;
+    }
+
+
+    img.avatar {
+        border-radius: 50%;
+        height: 30px;
+        margin-top: -14px;
+        margin-bottom: -10px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+
+    .intro-block{
+        padding-right: 0;
+        padding-left: 0;
+        border-radius: 0;
+        width: 100%;
+        background: #f7f6f6;
+    }
+
+    .chart {
+        padding: 30px;
+        border-radius: .25rem;
+        background: white;
+    }
+
+    .sdg {
+        /* margin: auto; */
+        /* margin-top: 10px; */
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .spacer{
+
+        margin-top:30px;
+        margin-bottom:30px
+    }
+
+    .casepoint{
+        padding: 30px;
+        background: white;
+        border-radius: 0.25rem;
+    }
+
+
+    span.donutscore {
+        font-size: 182px;
+        font-weight: 100;
+        line-height: 1;
+    }
+    span.price {
+        font-size: 120px;
+        font-weight: 100;
+        line-height: 1;
+    }
+
+    span.ton {
+        font-size: 120px;
+        font-weight: 100;
+        line-height: 1;
+    }
+
+
+
+    .avatarsocial {
+        width: 44px;
+        height: 44px;
+        overflow: hidden;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        border-radius: 50%;
+        border: 1px solid lightgrey;
+    }
